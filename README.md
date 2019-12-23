@@ -167,7 +167,7 @@ have to press refresh in the browser to get the new data from spider.js.
 - `spider.py` running for dr-chuck.com.
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px src="./assets/spider.jpg"></a>
+ <img width=500px src="./assets/spider.png"></a>
 </p>
 - `spdump.py` running for dr-chuck.com.
 <p align="center">
