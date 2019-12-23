@@ -1,6 +1,6 @@
 # Page Rank implementation and visualisation
 
-Simple Python Search Spider, Page Ranker, and Visualizer made as a capstone project for the Python Specialization on Coursera.
+A Simple Python web crawler, Page Ranker, and Visualisation tool.
 
 [![license](https://img.shields.io/github/license/nhnent/tui.editor.svg)]()
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -18,9 +18,7 @@ http://sqlitebrowser.org/
 This program crawls a web site and pulls a series of pages into the
 database, recording the links between pages.
 
-Ubuuntu: python3 spider.py
-
-Win: del spider.sqlite
+Ubuntu: python3 spider.py
 Win: spider.py
 
 Enter web url or enter: http://www.dr-chuck.com/
@@ -30,8 +28,8 @@ How many pages:2
 2 http://www.dr-chuck.com/csev-blog/ 57
 How many pages:
 
-In this sample run, we told it to crawl a website and retrieve two 
-pages.  If you restart the program again and tell it to crawl more
+In this sample run, we told to crawl the entered website and retrieve two 
+pages from it.  If you restart the program again and tell it to crawl more
 pages, it will not re-crawl any pages already in the database.  Upon 
 restart it goes to a random non-crawled page and starts there.  So 
 each successive run of spider.py is additive.Also if it fails to
